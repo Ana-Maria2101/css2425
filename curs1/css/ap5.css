@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+div  {
+    background-color: blueviolet;
+    border: 5px red solid;
+    padding: 20px;
+    
+}
+div > div {
+    background-color: blanchedalmond;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+div > div > div {
+    background-color: rgb(84, 84, 233);
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+ 
+p {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+
+
