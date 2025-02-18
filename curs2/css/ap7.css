@@ -1,0 +1,47 @@
+/* body {
+	background: #0a4c3dca;
+}
+
+
+.container {
+	max-width: 720px;
+	margin: 24px auto 48px auto;
+}
+
+
+
+
+
+.column {
+	display: inline-block;
+	text-align: center;
+}
+
+figure {
+	overflow: hidden;
+}
+
+a p {
+	color: black;
+	margin-top: 8px;
+	font-family: 'Open Sans', sans-serif;
+} */
+
+a:hover {
+	text-decoration: none;
+}
+
+.column img {
+	display: block;
+	
+}
+
+/*Sepia*/
+.column#sepia img {
+	filter: sepia(100%);
+	transition: .3s ease-in;
+}
+.column#sepia:hover img {
+	
+	filter: sepia(0);
+}
